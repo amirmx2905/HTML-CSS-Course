@@ -1,0 +1,17 @@
+body{
+    font-family: Montserrat;
+    background: black;
+}
+
+.card {
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.paragraph {
+    text-align: justify;
+    padding: 20px;
+}

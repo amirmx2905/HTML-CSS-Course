@@ -1,0 +1,32 @@
+h1{
+    color:black;
+    font-family:sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+p {
+    color:burlywood;
+    font-family:Montserrat;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+button{
+    letter-spacing: 2px;
+}
+
+span{
+    text-decoration: line-through;
+    color:brown;
+}
+
+a {
+    text-decoration: none;
+}

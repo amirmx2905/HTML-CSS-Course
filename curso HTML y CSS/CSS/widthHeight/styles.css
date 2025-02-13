@@ -1,0 +1,25 @@
+div {
+    background: red;
+    width: 400px;
+    height: 200px;
+}
+
+h1 {
+    background: blue;
+    text-align: center;
+    padding:10px;
+}
+
+input {
+    width: 90%;
+}
+
+form {
+    width: 50%;
+}
+
+.firstOne {
+    margin-top: 200px;
+     width: 90%;
+}
+
