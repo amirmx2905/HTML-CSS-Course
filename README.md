@@ -1,0 +1,2 @@
+Curso HTML y CSS
+Repositorio dedicado a mi aprendizaje de desarrollo web frontend, enfocado en HTML5 y CSS3. Este proyecto contiene ejercicios prácticos, proyectos y recursos utilizados durante mi formación.
