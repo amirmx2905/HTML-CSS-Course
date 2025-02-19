@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+
+h1{
+    text-shadow: 0 0 30px #000;
+}
+
+p {
+    text-shadow: 0 0 10px #000;
+    text-align: justify;
+}
+
+img {
+    width: fit-content;
+    height: 200px;
+    border-radius: 100%;
+    filter: drop-shadow(0px 0px 10px #000);
+}
+
+.box {
+    width: 400px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #fff, #999);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px 0px #000;
+    text-align: center;
+    padding: 25px;
+}

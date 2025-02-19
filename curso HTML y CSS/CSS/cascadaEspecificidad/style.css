@@ -1,0 +1,18 @@
+body{
+    background-color: #222;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#titulo { /* Más específico */
+    color: green ;
+}
+
+.titulo{ /* Menos específico */
+    color: #f22;
+}
+
+h1{ /* Menos específico */
+    color: #3f22ff !important;
+}

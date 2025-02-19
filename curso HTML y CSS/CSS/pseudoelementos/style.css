@@ -1,0 +1,24 @@
+body {
+    background-color: #222;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+div {
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+div::first-line {
+    color: red;
+    font-weight: bolder;
+}
+
+
+div::selection {
+    background-color: #555;
+}

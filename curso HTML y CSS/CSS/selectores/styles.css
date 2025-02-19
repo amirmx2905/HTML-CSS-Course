@@ -1,15 +1,58 @@
+body{
+    background-color: #222;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
 p {
-    color: blue;
+    text-align: justify;
 }
 
-li {
-    color:grey;
+ul {
+    width: fit-content;
 }
 
-.ingrediente-faltante {
-    color: red;
+body > strong { /* SELECTOR POR HIJO DIRECTO */
+    color: #e00;
+    text-shadow: 0 0 30px #e00;
 }
 
-#ingrediente-secreto {
-    color: blue;
+ul strong { /* Selecciona a todos los STRONG que esten dentro de algún UL */
+    color: #28f;
+    text-shadow: 0 0 30px #28f;
 }
+
+ul li { /* Selecciona a todos los LI que esten dentro de algún UL */
+    width: fit-content;
+    text-shadow: 0 0 30px #fff;
+}
+
+h1 + p + p {/* SELECTOR DE HERMANO ADYADENTE: solo se aplica si P sigue después un P que está despues de un h1 */
+    color: #28f;
+    
+}
+
+h1 ~ p {/* SELECTOR DE HERMANOS GENERALES: se aplica a todos los P en el mismo nivel de después de h1 */
+    text-shadow: 0 0 30px #28f;
+}
+
+h1, h2, p { /* SELECTOR PARA VARIAS ETIQUETAS */
+    text-decoration: underline;
+}
+
+img[src="../../HTML/img/uncrop_hero_bdf08a8ca6.jpg"] { /* Todas las imagenes que tengan la propiedad src = "..." */
+    width: 50%;
+}
+
+img[src^="../../HTML/img/"] { /* Todas las imagenes que empiecen con ... */
+    box-shadow: 0 0 30px 0 #fff;
+    margin: 50px auto;
+    display: block;
+}
+
+img[src$="jpg"] { /* Todas las imagenes que terminen con ...jpg */
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,20 @@
+body{
+    margin:0;
+}
+
+.box-linear-gradient {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background:linear-gradient(to bottom, #000, transparent)
+}
+
+.box-radial-gradient {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background:radial-gradient( #000, #999)
+}

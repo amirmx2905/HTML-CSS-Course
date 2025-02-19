@@ -1,0 +1,30 @@
+div{
+    background: #ededed;
+    margin: auto;
+    text-align: center;
+    width: 475px;
+    font-family: sans-serif;
+    border-left: 3px solid #696969;
+    padding: 10px;
+    width: 50vw;
+}
+
+h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+span {
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    text-align: left;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}

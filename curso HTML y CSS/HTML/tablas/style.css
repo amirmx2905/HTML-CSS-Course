@@ -1,0 +1,41 @@
+body{
+    color: #fff;
+    background-color: #222;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+table {
+    box-sizing: border-box;
+    background: linear-gradient(#444, #555);
+    border-radius: 10px;
+    margin: 30px auto 30px auto;
+    width: 100%;
+    max-width: 70%;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #fff;
+    border-spacing: 10px;
+}
+
+tfoot th {
+    font-size: 0.75em
+}
+
+td {
+    font-size: 0.75em
+}
+
+th {
+    text-shadow: 0 0 2px #fff;
+}
+
+td, th {
+    box-sizing: border-box;
+    border-bottom: 1.5px solid #fff;
+    padding: 10px;
+}
+
+.table-header {
+    border:none;
+    border-spacing: 0;
+}

@@ -1,0 +1,13 @@
+section :is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+/*Si el elemento 1 desaparece, se dejan de aplicar las reglas*/
+section :has(.elemento1){
+    background-color: blanchedalmond;
+}
+
+/*En caso de que a un UL le siga un DIV, modificamos el UL*/
+ul :has(+div) {
+    font-weight: bold;
+}

@@ -1,0 +1,123 @@
+body{
+    background-color: #222;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+
+h1{
+    width: fit-content;
+    text-align: center;
+    margin: 30px auto;
+}
+
+ul {
+    background: linear-gradient(#777, #444);
+    width: fit-content;
+    margin: 30px auto;
+    padding: 0;
+}
+
+/*CUANDO SE PASA EL MOUSE POR ENCIMA DEL ELEMENTO*/
+h1:hover {
+    text-shadow: 0 0 30px #fff;
+}
+
+/*CUANDO SE HACE CLICK ENCIMA DEL ELEMENTO*/
+h1:active {
+    text-shadow: 0 0 30px #000;
+    user-select: none;
+}
+
+li {
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+/*SELECCIONANDO EL PRIMER ELEMENTO DE LA LISTA*/
+li:first-child {
+    color: #f22;
+}
+/*SELECCIONANDO EL NSÍMO ELEMENTO DE LA LISTA DE TIPO LI*/
+li:nth-of-type(5){
+    text-decoration: underline;
+}
+
+/*SELECCIONANDO EL TERCER ELEMENTO DE LA LISTA*/
+li:nth-child(3) {
+    color: #888;
+}
+
+/*SELECCIONANDO UN LI SÍ, Y UN LI NO*/
+li:nth-child(2n){
+    color: #2f2;
+    background-color: #fff;
+}
+
+/*SELECCIONANDO EL ÚLTIMO ELEMENTO DE LA LISTA*/
+li:last-child{
+    color: #22f;
+}
+
+/*SE APLICA EL COLOR NEGRO A MENOS QUE TENGA LA CLASE EXCLUDE*/
+.lista li:not(.exclude){
+    color:#000
+}
+
+div{
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+div > p {
+    text-align: justify;
+}
+
+/*SE APLICAN LAS REGLAS SOLO SI EL DIV ESTÁ VACÍO*/
+div:empty{
+    border:none;
+}
+
+/*SE APLICA A LOS INPUT TIPO CHECKBOX NO CHECADOS*/
+
+input{
+    color: #000;
+    margin: 30px auto;
+    display: block;
+}
+
+input:invalid{
+    color: red;
+}
+
+input:valid{
+    color:green
+}
+
+input[type="text"]:focus {
+    cursor: none;
+}
+
+/*SE APLICA A LOS INPUT TIPO CHECKBOX CHECADOS*/
+input[type="checkbox"]:checked{
+    width: 30px;
+    height: 30px;
+}
+
+/*SE APLICA A LOS LINK NO VISITADOS*/
+a:link {
+    color:red;
+}
+
+/*SE APLICA A LOS LINK VISITADOS*/
+a:visited {
+    color: green;
+}
+

@@ -1,0 +1,79 @@
+html, body{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#372f6f, #0e0554);
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: #a347e4;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.card_img {
+    width: 200px;
+    height: 200px;
+    position: center;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_name, .card_subtitle {
+    text-shadow: 0 0 20px #fff;
+    color: #fff;
+}
+
+.card_paragraph {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 40px;
+    padding: 20px;
+    background-color: #8a1bd9;
+    text-shadow: 0 0 20px #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.purple {
+    background-color: #a347e4; 
+}
+.red {
+    background-color: #ef4141;
+}
+.green {
+    background-color: #43a94a;
+}
+.blue {
+    background-color: #439fd4;
+    margin-bottom: 50px;
+}
+
+.purple .card_paragraph {
+    background-color: #8a1bd9;
+    box-shadow: 0 0 10px 2px #8a1bd9;
+}
+.red .card_paragraph {
+    background-color: #b21f1f;
+    box-shadow: 0 0 10px 2px #b21f1f; 
+}
+.green .card_paragraph {
+    background-color: #229529;
+    box-shadow: 0 0 10px 2px #229529;
+}
+.blue .card_paragraph{
+    background-color: #1586c7;
+    box-shadow: 0 0 10px 2px #1586c7;
+}
+
+

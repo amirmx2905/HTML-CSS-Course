@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Formulario de Contacto</h2>
+        </div>
+        <fieldset>
+            <legend>Información Básica</legend>
+            <!--SIMPLE INPUTS-->
+            <div>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" placeholder="Jhon Doe" required id="nombre">
+            </div>
+            <!--SELECT Y OPTION-->
+            <div>
+                <label for="asunto">Asunto</label>
+                <select name="tipoAsunto" id="asunto" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="opc1">Trabajo</option>
+                    <option value="opc2">Intership</option>
+                    <option value="opc3">Becario</option>
+                    <option value="opc4">Beca</option>
+                </select>
+            </div>
+            <!--DATALIST Y OPTION-->
+            <div>
+                <label for="referente">Referente</label>
+                <input list="referente" required>
+                <datalist name="tipoReferente" id="referente">
+                    <option value="Empresa">Una empresa conocida</option>
+                    <option value="Amigo">Un amigo de esta empresa</option>
+                    <option value="Familiar">Un familiar de esta empresa+</option>
+                    <option value="NA">Prefiero no decirlo</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <fieldset class="under-element">
+            <legend>Información de Contacto</legend>
+            <!--SIMPLE INPUTS-->
+            <div>
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="jhondoe@gmail.com" required id="correo">
+            </div>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="number" placeholder="10 dígitos" required id="telefono" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+            </div>
+        </fieldset>
+        <!--TEXTAREA-->
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea placeholder="Escribe tu mensaje" required id="mensaje"></textarea>
+        </div>
+        <div class="terms-space">
+            <label class="terms" for="terms">Acepto los <a href = "terms.html">Terminos y Condiciones</a></label>
+            <input class ="checkbox" type="checkbox" required id="terms">
+        </div>
+        <div>
+            <input class = "button" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
