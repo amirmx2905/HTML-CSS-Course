@@ -1,0 +1,33 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #5f9ea0;
+    margin-top: 100px;
+    border-radius: 20px;
+
+    /*transition-property: left;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(.04,.93,.22,.93);*/
+
+    transition: left 0.5s cubic-bezier(.04,.93,.77,1.04);
+    position: relative;
+    left: 0;
+
+}
+
+/* Página para animaciones: https://cubic-bezier.com/#.17,.67,.83,.67 */
+
+html:hover .box {
+    background-color: #407172;
+    left: 800px;
+}

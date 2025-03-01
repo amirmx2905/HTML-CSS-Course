@@ -1,0 +1,84 @@
+div {
+    padding: 20px;
+    background: linear-gradient(#777, #444);
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    
+}
+
+body {
+    margin: 0;
+    font-size: 36px;
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav {
+    background: linear-gradient(#3c3c3c,#555, #777);
+    border-radius: 0 0 10px 10px;
+}
+
+.nav__list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__item {
+    padding: 10px;
+    background-color: #222;
+    width: fit-content;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px auto;
+    transition: 0.3s ease-in-out;
+}
+
+.nav__item > a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav__item:hover {
+    transform: scale(1.2);
+    background-color: #fff;
+    font-weight: bolder;
+}
+
+.nav__item >:hover {
+    color: #222;
+}
+
+.display--none {
+    display: none;
+}
+
+
+
+div>a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #222;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+div>a:hover{
+    transform: scale(1.01);
+    background-color: #777;
+}
+
+p {
+    font-size: 0.7em;
+    text-align: justify;
+}

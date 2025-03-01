@@ -1,0 +1,29 @@
+body {
+    background-color: #222;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+.flexbox {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    background-color: cadetblue;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item:first-child {
+    background-color: #55f;
+}
+
+.flex-item:last-child {
+    background-color: #000;
+}
